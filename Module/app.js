@@ -1,5 +1,2 @@
-module.exports = {
-  myFunction: function () {
-    return "This is a function from my custom module!";
-  },
-};
+const myModule = require("./my-module.js");
+console.log(myModule.myFunction());
